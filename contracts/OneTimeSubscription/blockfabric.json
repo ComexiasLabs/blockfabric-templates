@@ -1,0 +1,11 @@
+{
+  "type": "SmartContractTemplate",
+  "creator": "BlockFabric",
+  "name": "One Time Subscription Contract",
+  "description": "A One Time Subscription Contract manages product subscriptions on the blockchain. It allows users to purchase products once, and owners to add products and set prices.",
+  "inputs": [],
+  "dependencies": [
+    "@openzeppelin/contracts/access/Ownable.sol",
+    "@openzeppelin/contracts/utils/Context.sol"
+  ]
+}

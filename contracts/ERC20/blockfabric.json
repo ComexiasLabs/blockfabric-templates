@@ -1,0 +1,30 @@
+{
+  "type": "SmartContractTemplate",
+  "creator": "BlockFabric",
+  "name": "ERC20 Token Contract",
+  "description": "ERC20 is an standard for fungible assets, outlining a common list of rules for tokens to follow, enabling interoperability across different interfaces and dApps.",
+  "inputs": [
+    {
+      "key": "tokenName",
+      "label": "Token Name",
+      "description": "Enter the name of the token",
+      "dataType": "string",
+      "defaultValue": "",
+      "required": true
+    },
+    {
+      "key": "symbol",
+      "label": "Symbol",
+      "description": "Enter the symbol of the token",
+      "dataType": "string",
+      "defaultValue": "",
+      "required": true
+    }
+  ],
+  "dependencies": [
+    "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+    "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+    "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+    "@openzeppelin/contracts/utils/Context.sol"
+  ]
+}

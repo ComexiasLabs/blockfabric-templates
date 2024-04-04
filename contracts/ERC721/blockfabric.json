@@ -1,0 +1,52 @@
+{
+  "type": "SmartContractTemplate",
+  "creator": "BlockFabric",
+  "name": "ERC721 NFT Contract",
+  "description": "ERC721 is an open standard for creating non-fungible tokens (NFTs) on the blockchain, allowing for the ownership and transfer of unique assets.",
+  "inputs": [
+    {
+      "key": "tokenName",
+      "label": "Token or Collection Name",
+      "description": "Enter the name of the NFT collection",
+      "dataType": "string",
+      "defaultValue": "",
+      "required": true
+    },
+    {
+      "key": "symbol",
+      "label": "Symbol",
+      "description": "Enter the symbol of the NFT collection",
+      "dataType": "string",
+      "defaultValue": "",
+      "required": true
+    }
+  ],
+  "constructorInputs": [
+    {
+      "key": "baseTokenURI",
+      "label": "Base Token URI",
+      "description": "Enter th path for the base token URI",
+      "dataType": "string",
+      "defaultValue": "",
+      "required": true,
+      "inputType": "StorageFolderUri"
+    }
+  ],
+  "dependencies": [
+    "@openzeppelin/contracts/access/Ownable.sol",
+    "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+    "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+    "@openzeppelin/contracts/token/ERC721/IERC721.sol",
+    "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
+    "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
+    "@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol",
+    "@openzeppelin/contracts/utils/Address.sol",
+    "@openzeppelin/contracts/utils/Context.sol",
+    "@openzeppelin/contracts/utils/Counters.sol",
+    "@openzeppelin/contracts/utils/Strings.sol",
+    "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+    "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+    "@openzeppelin/contracts/utils/math/Math.sol",
+    "@openzeppelin/contracts/utils/math/SignedMath.sol"
+  ]
+}
