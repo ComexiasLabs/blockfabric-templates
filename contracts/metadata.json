@@ -1,23 +1,27 @@
 [
     {
+        "id": "1",
         "type": "SmartContractTemplate",
         "creator": "BlockFabric",
         "name": "ERC20 Token Contract",
         "description": "ERC20 is an standard for fungible assets, outlining a common list of rules for tokens to follow, enabling interoperability across different interfaces and dApps."
     },
     {
+        "id": "2",
         "type": "SmartContractTemplate",
         "creator": "BlockFabric",
         "name": "ERC721 NFT Contract",
         "description": "ERC721 is an open standard for creating non-fungible tokens (NFTs) on the blockchain, allowing for the ownership and transfer of unique assets."
     },
     {
+        "id": "3",
         "type": "SmartContractTemplate",
         "creator": "BlockFabric",
         "name": "Crowd Sale Contract",
         "description": "A Crowd Sale Contract facilitates the raising of funds by selling a ERC20 token to investors at a specific price, in a defined timeframe, directly on the blockchain."
     },
     {
+        "id": "4",
         "type": "SmartContractTemplate",
         "creator": "BlockFabric",
         "name": "One Time Subscription Contract",
