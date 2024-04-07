@@ -21,10 +21,11 @@
       "required": true
     }
   ],
+  "contractFile": "ERC20Contract.sol",
   "dependencies": [
-    "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-    "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-    "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
-    "@openzeppelin/contracts/utils/Context.sol"
+    "deps/@openzeppelin/contracts/token/ERC20/ERC20.sol",
+    "deps/@openzeppelin/contracts/token/ERC20/IERC20.sol",
+    "deps/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+    "deps/@openzeppelin/contracts/utils/Context.sol"
   ]
 }
