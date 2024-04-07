@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "metadata": "/ERC20/blockfabric.json",
+        "folder": "/contracts/ERC20",
         "type": "SmartContractTemplate",
         "creator": "BlockFabric",
         "name": "ERC20 Token Contract",
@@ -9,7 +9,7 @@
     },
     {
         "id": "2",
-        "metadata": "/ERC721/blockfabric.json",
+        "folder": "/contracts/ERC721",
         "type": "SmartContractTemplate",
         "creator": "BlockFabric",
         "name": "ERC721 NFT Contract",
@@ -18,7 +18,7 @@
     {
         "id": "3",
         "type": "SmartContractTemplate",
-        "metadata": "/CrowdSale/blockfabric.json",
+        "folder": "/contracts/CrowdSale",
         "creator": "BlockFabric",
         "name": "Crowd Sale Contract",
         "description": "A Crowd Sale Contract facilitates the raising of funds by selling a ERC20 token to investors at a specific price, in a defined timeframe, directly on the blockchain."
@@ -26,7 +26,7 @@
     {
         "id": "4",
         "type": "SmartContractTemplate",
-        "metadata": "/OneTimeSubscription/blockfabric.json",
+        "folder": "/contracts/OneTimeSubscription",
         "creator": "BlockFabric",
         "name": "One Time Subscription Contract",
         "description": "A One Time Subscription Contract manages product subscriptions on the blockchain. It allows users to purchase products once, and owners to add products and set prices."
