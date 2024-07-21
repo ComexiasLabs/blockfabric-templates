@@ -30,5 +30,13 @@
         "creator": "BlockFabric",
         "name": "One Time Subscription Contract",
         "description": "A One Time Subscription Contract manages product subscriptions on the blockchain. It allows users to purchase products once, and owners to add products and set prices."
+    },
+    {
+        "id": "5",
+        "type": "SmartContractTemplate",
+        "folder": "/contracts/DAOGovernance",
+        "creator": "BlockFabric",
+        "name": "DAO Governance Contract",
+        "description": "A DAO (Decentralized Autonomous Organization) Governance Contract allows for decentralized decision-making on the blockchain. It includes features like proposal creation, voting mechanisms, and execution of decisions based on the outcome of votes."
     }
 ]
