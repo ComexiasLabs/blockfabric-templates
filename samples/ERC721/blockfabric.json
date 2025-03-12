@@ -1,0 +1,20 @@
+{
+  "contractFile": "ERC721Contract.sol",
+  "dependencies": [
+    "deps/@openzeppelin/contracts/access/Ownable.sol",
+    "deps/@openzeppelin/contracts/token/ERC721/ERC721.sol",
+    "deps/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+    "deps/@openzeppelin/contracts/token/ERC721/IERC721.sol",
+    "deps/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
+    "deps/@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
+    "deps/@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol",
+    "deps/@openzeppelin/contracts/utils/Address.sol",
+    "deps/@openzeppelin/contracts/utils/Context.sol",
+    "deps/@openzeppelin/contracts/utils/Counters.sol",
+    "deps/@openzeppelin/contracts/utils/Strings.sol",
+    "deps/@openzeppelin/contracts/utils/introspection/ERC165.sol",
+    "deps/@openzeppelin/contracts/utils/introspection/IERC165.sol",
+    "deps/@openzeppelin/contracts/utils/math/Math.sol",
+    "deps/@openzeppelin/contracts/utils/math/SignedMath.sol"
+  ]
+}
